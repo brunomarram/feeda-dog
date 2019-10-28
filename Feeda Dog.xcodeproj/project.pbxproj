@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D71B06A542F4B5961F0B0D33 /* Pods_Feeda_Dog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B861D8102CE2B433025B18A9 /* Pods_Feeda_Dog.framework */; };
+		E00990AC234B8B7700F62EBD /* SwiftCron in Frameworks */ = {isa = PBXBuildFile; productRef = E00990AB234B8B7700F62EBD /* SwiftCron */; };
+		E0160B7023665FBF004E9B3F /* ExemplesDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0160B6F23665FBF004E9B3F /* ExemplesDefaults.swift */; };
+		E0169D3E2342F933001D74D7 /* PrototypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0169D3D2342F933001D74D7 /* PrototypeTableViewCell.swift */; };
+		E02BEE44234A357300174D49 /* ConfigurationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02BEE43234A357300174D49 /* ConfigurationController.swift */; };
+		E02BEE47234A685200174D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02BEE45234A685200174D49 /* Main.storyboard */; };
+		E03681DC2342733E002A7BF7 /* AgendamentoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03681DB2342733E002A7BF7 /* AgendamentoController.swift */; };
+		E08E7EFF23423F2900C7A17F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08E7EFE23423F2900C7A17F /* AppDelegate.swift */; };
+		E08E7F0123423F2900C7A17F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08E7F0023423F2900C7A17F /* SceneDelegate.swift */; };
+		E08E7F0323423F2900C7A17F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08E7F0223423F2900C7A17F /* HomeController.swift */; };
+		E08E7F0523423F2900C7A17F /* RelatoriosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08E7F0423423F2900C7A17F /* RelatoriosController.swift */; };
+		E08E7F0A23423F2A00C7A17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08E7F0923423F2A00C7A17F /* Assets.xcassets */; };
+		E08E7F0D23423F2A00C7A17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08E7F0B23423F2A00C7A17F /* LaunchScreen.storyboard */; };
+		E08E7F1823423F2A00C7A17F /* FeedaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08E7F1723423F2A00C7A17F /* FeedaTests.swift */; };
+		E08E7F2323423F2A00C7A17F /* FeedaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08E7F2223423F2A00C7A17F /* FeedaUITests.swift */; };
+		E0B2C2DF235DDA4700CE5D53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0B2C2DE235DDA4700CE5D53 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E08E7F1423423F2A00C7A17F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E08E7EF323423F2800C7A17F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E08E7EFA23423F2900C7A17F;
+			remoteInfo = Feeda;
+		};
+		E08E7F1F23423F2A00C7A17F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E08E7EF323423F2800C7A17F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E08E7EFA23423F2900C7A17F;
+			remoteInfo = Feeda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B061882F0095818BC888726 /* Pods-Feeda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feeda.debug.xcconfig"; path = "Target Support Files/Pods-Feeda/Pods-Feeda.debug.xcconfig"; sourceTree = "<group>"; };
+		670720C66A95C9F5110C97C2 /* Pods-Feeda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feeda.release.xcconfig"; path = "Target Support Files/Pods-Feeda/Pods-Feeda.release.xcconfig"; sourceTree = "<group>"; };
+		B861D8102CE2B433025B18A9 /* Pods_Feeda_Dog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feeda_Dog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6463D22C09565A24B0B7B8B /* Pods-Feeda Dog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feeda Dog.release.xcconfig"; path = "Target Support Files/Pods-Feeda Dog/Pods-Feeda Dog.release.xcconfig"; sourceTree = "<group>"; };
+		E0160B6F23665FBF004E9B3F /* ExemplesDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExemplesDefaults.swift; sourceTree = "<group>"; };
+		E0169D3D2342F933001D74D7 /* PrototypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeTableViewCell.swift; sourceTree = "<group>"; };
+		E02BEE43234A357300174D49 /* ConfigurationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationController.swift; sourceTree = "<group>"; };
+		E02BEE46234A685200174D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E03681DB2342733E002A7BF7 /* AgendamentoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendamentoController.swift; sourceTree = "<group>"; };
+		E08E7EFB23423F2900C7A17F /* Feeda Dog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Feeda Dog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08E7EFE23423F2900C7A17F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E08E7F0023423F2900C7A17F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E08E7F0223423F2900C7A17F /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		E08E7F0423423F2900C7A17F /* RelatoriosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatoriosController.swift; sourceTree = "<group>"; };
+		E08E7F0923423F2A00C7A17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E08E7F0C23423F2A00C7A17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E08E7F0E23423F2A00C7A17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08E7F1323423F2A00C7A17F /* Feeda DogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feeda DogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08E7F1723423F2A00C7A17F /* FeedaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedaTests.swift; sourceTree = "<group>"; };
+		E08E7F1923423F2A00C7A17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08E7F1E23423F2A00C7A17F /* Feeda DogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feeda DogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08E7F2223423F2A00C7A17F /* FeedaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedaUITests.swift; sourceTree = "<group>"; };
+		E08E7F2423423F2A00C7A17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B2C2DE235DDA4700CE5D53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA0057BF6B256598804772DD /* Pods-Feeda Dog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feeda Dog.debug.xcconfig"; path = "Target Support Files/Pods-Feeda Dog/Pods-Feeda Dog.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E08E7EF823423F2900C7A17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00990AC234B8B7700F62EBD /* SwiftCron in Frameworks */,
+				D71B06A542F4B5961F0B0D33 /* Pods_Feeda_Dog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08E7F1023423F2A00C7A17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08E7F1B23423F2A00C7A17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26805B4F6034CAB24AF4B640 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B061882F0095818BC888726 /* Pods-Feeda.debug.xcconfig */,
+				670720C66A95C9F5110C97C2 /* Pods-Feeda.release.xcconfig */,
+				FA0057BF6B256598804772DD /* Pods-Feeda Dog.debug.xcconfig */,
+				C6463D22C09565A24B0B7B8B /* Pods-Feeda Dog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		721C7FB3800636242BAA727A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B861D8102CE2B433025B18A9 /* Pods_Feeda_Dog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E08E7EF223423F2800C7A17F = {
+			isa = PBXGroup;
+			children = (
+				E08E7EFD23423F2900C7A17F /* Feeda */,
+				E08E7F1623423F2A00C7A17F /* FeedaTests */,
+				E08E7F2123423F2A00C7A17F /* FeedaUITests */,
+				E08E7EFC23423F2900C7A17F /* Products */,
+				26805B4F6034CAB24AF4B640 /* Pods */,
+				721C7FB3800636242BAA727A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E08E7EFC23423F2900C7A17F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E08E7EFB23423F2900C7A17F /* Feeda Dog.app */,
+				E08E7F1323423F2A00C7A17F /* Feeda DogTests.xctest */,
+				E08E7F1E23423F2A00C7A17F /* Feeda DogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E08E7EFD23423F2900C7A17F /* Feeda */ = {
+			isa = PBXGroup;
+			children = (
+				E08E7EFE23423F2900C7A17F /* AppDelegate.swift */,
+				E08E7F0023423F2900C7A17F /* SceneDelegate.swift */,
+				E08E7F0223423F2900C7A17F /* HomeController.swift */,
+				E08E7F0423423F2900C7A17F /* RelatoriosController.swift */,
+				E0169D3D2342F933001D74D7 /* PrototypeTableViewCell.swift */,
+				E02BEE45234A685200174D49 /* Main.storyboard */,
+				E08E7F0923423F2A00C7A17F /* Assets.xcassets */,
+				E08E7F0B23423F2A00C7A17F /* LaunchScreen.storyboard */,
+				E08E7F0E23423F2A00C7A17F /* Info.plist */,
+				E03681DB2342733E002A7BF7 /* AgendamentoController.swift */,
+				E02BEE43234A357300174D49 /* ConfigurationController.swift */,
+				E0B2C2DE235DDA4700CE5D53 /* GoogleService-Info.plist */,
+				E0160B6F23665FBF004E9B3F /* ExemplesDefaults.swift */,
+			);
+			path = Feeda;
+			sourceTree = "<group>";
+		};
+		E08E7F1623423F2A00C7A17F /* FeedaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E08E7F1723423F2A00C7A17F /* FeedaTests.swift */,
+				E08E7F1923423F2A00C7A17F /* Info.plist */,
+			);
+			path = FeedaTests;
+			sourceTree = "<group>";
+		};
+		E08E7F2123423F2A00C7A17F /* FeedaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E08E7F2223423F2A00C7A17F /* FeedaUITests.swift */,
+				E08E7F2423423F2A00C7A17F /* Info.plist */,
+			);
+			path = FeedaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E08E7EFA23423F2900C7A17F /* Feeda Dog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E08E7F2723423F2A00C7A17F /* Build configuration list for PBXNativeTarget "Feeda Dog" */;
+			buildPhases = (
+				A5CD3625EAB9E0C605970663 /* [CP] Check Pods Manifest.lock */,
+				E08E7EF723423F2900C7A17F /* Sources */,
+				E08E7EF823423F2900C7A17F /* Frameworks */,
+				E08E7EF923423F2900C7A17F /* Resources */,
+				2548E1361452F1CEA5F68D78 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Feeda Dog";
+			packageProductDependencies = (
+				E00990AB234B8B7700F62EBD /* SwiftCron */,
+			);
+			productName = Feeda;
+			productReference = E08E7EFB23423F2900C7A17F /* Feeda Dog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E08E7F1223423F2A00C7A17F /* Feeda DogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E08E7F2A23423F2A00C7A17F /* Build configuration list for PBXNativeTarget "Feeda DogTests" */;
+			buildPhases = (
+				E08E7F0F23423F2A00C7A17F /* Sources */,
+				E08E7F1023423F2A00C7A17F /* Frameworks */,
+				E08E7F1123423F2A00C7A17F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E08E7F1523423F2A00C7A17F /* PBXTargetDependency */,
+			);
+			name = "Feeda DogTests";
+			productName = FeedaTests;
+			productReference = E08E7F1323423F2A00C7A17F /* Feeda DogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E08E7F1D23423F2A00C7A17F /* Feeda DogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E08E7F2D23423F2A00C7A17F /* Build configuration list for PBXNativeTarget "Feeda DogUITests" */;
+			buildPhases = (
+				E08E7F1A23423F2A00C7A17F /* Sources */,
+				E08E7F1B23423F2A00C7A17F /* Frameworks */,
+				E08E7F1C23423F2A00C7A17F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E08E7F2023423F2A00C7A17F /* PBXTargetDependency */,
+			);
+			name = "Feeda DogUITests";
+			productName = FeedaUITests;
+			productReference = E08E7F1E23423F2A00C7A17F /* Feeda DogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E08E7EF323423F2800C7A17F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Bruno Marra de Melo";
+				TargetAttributes = {
+					E08E7EFA23423F2900C7A17F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					E08E7F1223423F2A00C7A17F = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = E08E7EFA23423F2900C7A17F;
+					};
+					E08E7F1D23423F2A00C7A17F = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = E08E7EFA23423F2900C7A17F;
+					};
+				};
+			};
+			buildConfigurationList = E08E7EF623423F2800C7A17F /* Build configuration list for PBXProject "Feeda Dog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E08E7EF223423F2800C7A17F;
+			packageReferences = (
+				E00990AA234B8B7700F62EBD /* XCRemoteSwiftPackageReference "SwiftCron" */,
+			);
+			productRefGroup = E08E7EFC23423F2900C7A17F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E08E7EFA23423F2900C7A17F /* Feeda Dog */,
+				E08E7F1223423F2A00C7A17F /* Feeda DogTests */,
+				E08E7F1D23423F2A00C7A17F /* Feeda DogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E08E7EF923423F2900C7A17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02BEE47234A685200174D49 /* Main.storyboard in Resources */,
+				E0B2C2DF235DDA4700CE5D53 /* GoogleService-Info.plist in Resources */,
+				E08E7F0D23423F2A00C7A17F /* LaunchScreen.storyboard in Resources */,
+				E08E7F0A23423F2A00C7A17F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08E7F1123423F2A00C7A17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08E7F1C23423F2A00C7A17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2548E1361452F1CEA5F68D78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Feeda Dog/Pods-Feeda Dog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Feeda Dog/Pods-Feeda Dog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Feeda Dog/Pods-Feeda Dog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5CD3625EAB9E0C605970663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Feeda Dog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E08E7EF723423F2900C7A17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08E7F0523423F2900C7A17F /* RelatoriosController.swift in Sources */,
+				E03681DC2342733E002A7BF7 /* AgendamentoController.swift in Sources */,
+				E0169D3E2342F933001D74D7 /* PrototypeTableViewCell.swift in Sources */,
+				E08E7F0323423F2900C7A17F /* HomeController.swift in Sources */,
+				E0160B7023665FBF004E9B3F /* ExemplesDefaults.swift in Sources */,
+				E02BEE44234A357300174D49 /* ConfigurationController.swift in Sources */,
+				E08E7EFF23423F2900C7A17F /* AppDelegate.swift in Sources */,
+				E08E7F0123423F2900C7A17F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08E7F0F23423F2A00C7A17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08E7F1823423F2A00C7A17F /* FeedaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08E7F1A23423F2A00C7A17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08E7F2323423F2A00C7A17F /* FeedaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E08E7F1523423F2A00C7A17F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E08E7EFA23423F2900C7A17F /* Feeda Dog */;
+			targetProxy = E08E7F1423423F2A00C7A17F /* PBXContainerItemProxy */;
+		};
+		E08E7F2023423F2A00C7A17F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E08E7EFA23423F2900C7A17F /* Feeda Dog */;
+			targetProxy = E08E7F1F23423F2A00C7A17F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E02BEE45234A685200174D49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02BEE46234A685200174D49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E08E7F0B23423F2A00C7A17F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E08E7F0C23423F2A00C7A17F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E08E7F2523423F2A00C7A17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E08E7F2623423F2A00C7A17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E08E7F2823423F2A00C7A17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0057BF6B256598804772DD /* Pods-Feeda Dog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9942GFS83;
+				INFOPLIST_FILE = Feeda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Feeda;
+				PRODUCT_NAME = "Feeda Dog";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E08E7F2923423F2A00C7A17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6463D22C09565A24B0B7B8B /* Pods-Feeda Dog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9942GFS83;
+				INFOPLIST_FILE = Feeda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Feeda;
+				PRODUCT_NAME = "Feeda Dog";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E08E7F2B23423F2A00C7A17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeedaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brunomarram.FeedaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feeda Dog.app/Feeda Dog";
+			};
+			name = Debug;
+		};
+		E08E7F2C23423F2A00C7A17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeedaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brunomarram.FeedaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feeda Dog.app/Feeda Dog";
+			};
+			name = Release;
+		};
+		E08E7F2E23423F2A00C7A17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeedaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brunomarram.FeedaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Feeda;
+			};
+			name = Debug;
+		};
+		E08E7F2F23423F2A00C7A17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeedaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brunomarram.FeedaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Feeda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E08E7EF623423F2800C7A17F /* Build configuration list for PBXProject "Feeda Dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08E7F2523423F2A00C7A17F /* Debug */,
+				E08E7F2623423F2A00C7A17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E08E7F2723423F2A00C7A17F /* Build configuration list for PBXNativeTarget "Feeda Dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08E7F2823423F2A00C7A17F /* Debug */,
+				E08E7F2923423F2A00C7A17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E08E7F2A23423F2A00C7A17F /* Build configuration list for PBXNativeTarget "Feeda DogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08E7F2B23423F2A00C7A17F /* Debug */,
+				E08E7F2C23423F2A00C7A17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E08E7F2D23423F2A00C7A17F /* Build configuration list for PBXNativeTarget "Feeda DogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08E7F2E23423F2A00C7A17F /* Debug */,
+				E08E7F2F23423F2A00C7A17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E00990AA234B8B7700F62EBD /* XCRemoteSwiftPackageReference "SwiftCron" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rymcol/SwiftCron";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E00990AB234B8B7700F62EBD /* SwiftCron */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E00990AA234B8B7700F62EBD /* XCRemoteSwiftPackageReference "SwiftCron" */;
+			productName = SwiftCron;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E08E7EF323423F2800C7A17F /* Project object */;
+}

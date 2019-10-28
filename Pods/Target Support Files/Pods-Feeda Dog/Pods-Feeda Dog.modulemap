@@ -1,0 +1,6 @@
+framework module Pods_Feeda_Dog {
+  umbrella header "Pods-Feeda Dog-umbrella.h"
+
+  export *
+  module * { export * }
+}
